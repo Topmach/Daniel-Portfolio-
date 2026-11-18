@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Ademujimi Daniel</title>
+  <meta name="robots" content="noindex"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .pp-top { background:var(--bg); padding:8rem 0 3rem; text-align:center; margin-top:var(--nav-h) }
+    .pp-top h1 { font-family:'Fraunces',serif; font-size:clamp(2rem,5vw,3rem); font-weight:900; color:var(--dark) }
+    .pp-top p  { color:var(--text3); margin-top:.5rem }
+    .pp-body   { max-width:680px; margin:3.5rem auto 6rem; padding:0 1.5rem }
+    .pp-body h2 { font-family:'Fraunces',serif; font-size:1.2rem; font-weight:900; color:var(--orange); margin:2.2rem 0 .65rem }
+    .pp-body p, .pp-body li { color:var(--text2); line-height:1.9; font-size:.95rem; margin-bottom:.6rem }
+    .pp-body ul { padding-left:1.3rem }
+    .pp-body ul li { list-style:disc }
+    .pp-body a { color:var(--orange) }
+    .back { display:inline-flex; align-items:center; gap:.5rem; color:var(--orange); font-weight:600; font-size:.9rem; margin-bottom:2rem }
+    .back:hover { text-decoration:underline }
+  </style>
+</head>
+<body>
+<header class="navbar scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">AD</span>
+      <span class="logo-text">Ademujimi<em>.</em></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="pp-top">
+  <div class="container">
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: May 2025</p>
+  </div>
+</div>
+
+<div class="pp-body">
+  <a href="index.html" class="back">← Back to Home</a>
+  <p>Your privacy is important. This page explains what this website collects, how it's used, and your rights.</p>
+
+  <h2>1. Information Collected</h2>
+  <p>When you use the contact form, we collect your name, email address, selected service, and message. We also track anonymous visit counts stored in Firebase.</p>
+
+  <h2>2. How We Use It</h2>
+  <ul>
+    <li>To respond to your project enquiry within 24 hours</li>
+    <li>To send you an automatic confirmation email</li>
+    <li>We do not sell or share your information with third parties</li>
+  </ul>
+
+  <h2>3. Firebase (Data Storage)</h2>
+  <p>Messages and project data are stored securely in Google Firebase Firestore. Admin access requires Firebase Authentication — only the site owner can view messages. See <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a>.</p>
+
+  <h2>4. Cookies</h2>
+  <ul>
+    <li><strong>Consent cookie:</strong> Saves your cookie preference in your browser</li>
+    <li><strong>Google Analytics:</strong> Anonymous traffic data — <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">opt out here</a></li>
+  </ul>
+
+  <h2>5. Email</h2>
+  <p>If you contact us, you'll receive an automatic confirmation email. Emails are sent via Brevo. You can opt out by replying to any email. See <a href="https://www.brevo.com/legal/privacypolicy/" target="_blank">Brevo Privacy Policy</a>.</p>
+
+  <h2>6. Your Rights</h2>
+  <p>You can request your data, ask for deletion, or opt out at any time. Contact: <a href="mailto:ademujimidaniel4@gmail.com">ademujimidaniel4@gmail.com</a></p>
+
+  <h2>7. Changes</h2>
+  <p>This policy may be updated. Changes will appear here with a new date.</p>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© <span id="yr"></span> Ademujimi Daniel. All rights reserved.</p>
+      
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
